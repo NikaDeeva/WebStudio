@@ -1,0 +1,25 @@
+:root{
+    --button-background: #F5F4FA;
+    --button-color: #212121;
+    --block-text-color: #757575;
+    --button-one-background: #2196F3;
+    --button-one-color: #FFF;
+}
+/*Кнопка "Усі"*/
+.button-point-one{
+   background: var(--button-one-background);
+   color: var(--button-one-color);
+}
+/*Інші кнопки*/
+.button-point{
+background-color: var(--button-background);
+color: var(--button-color);
+}
+/*Заголовки карток*/
+.block-title{
+    color: var(--button-color);
+}
+/*Текст карток*/
+.block-text{
+    color: var(--block-text-color);
+}
