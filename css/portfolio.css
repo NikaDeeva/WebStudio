@@ -5,22 +5,135 @@
     --button-one-background: #2196F3;
     --button-one-color: #FFF;
 }
+.logo{
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.blue{
+    color: var(--background-button-color);
+}
+
+.site-list{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    list-style: none;
+}
+.site-list:hover{
+    color: var(--background-button-color);
+
+}
+.site-link-one{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+color: var(--background-button-color);
+}
+.site-link{
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.site-link:hover,
+.site-link:focus{
+    color: var(--background-button-color);
+    
+}
+/*Contacts*/
+.contacts-list{
+    list-style: none;
+}
+.email{
+    color: var(--background-button-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.telephone{
+    color: var(--primary-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
 /*Кнопка "Усі"*/
 .button-point-one{
    background: var(--button-one-background);
    color: var(--button-one-color);
+   border-radius: 4px;
 }
 /*Інші кнопки*/
 .button-point{
 background-color: var(--button-background);
 color: var(--button-color);
 border: none;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.48px;
 }
 /*Заголовки карток*/
 .block-title{
     color: var(--button-color);
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
 }
 /*Текст карток*/
 .block-text{
     color: var(--block-text-color);
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.48px;
+}
+/*Footer*/
+.footer{
+    background-color: var(--secondary-background-color);
+}
+.address-text{
+    color: var(--primery-background-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.dates{
+    color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
