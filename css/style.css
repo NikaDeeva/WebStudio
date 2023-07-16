@@ -16,7 +16,7 @@ font-size: 14px;
 }
 /*header*/
 /*Logotype*/
-.logo{
+.header-logo{
     color: var(--logo-color);
     font-family: 'Raleway';
     font-size: 26px;
@@ -25,11 +25,11 @@ font-size: 14px;
     letter-spacing: 0.78px;
     text-decoration: none;
 }
-.blue{
+.logo-blue{
     color: var(--background-button-color);
 }
 
-.site-list{
+.header-list{
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
