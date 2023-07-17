@@ -8,6 +8,34 @@
   --logo-color: #000;
   --secondary-background-color: #2F303A;  
 }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--title-text-color);
+}
+img{
+    display: block;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 body{
     padding: 0 215px;
     color: var(--primary-text-color);
@@ -41,7 +69,7 @@ font-size: 14px;
     color: var(--background-button-color);
 }
 .header-link-one{
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -52,15 +80,15 @@ color: var(--background-button-color);
 .header-link{
     text-decoration: none;
     color: var(--title-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.site-link:hover,
-.site-link:focus{
+.header-link:hover,
+.header-link:focus{
     color: var(--background-button-color);
     
 }
@@ -70,7 +98,7 @@ letter-spacing: 0.28px;
 }
 .email{
     color: var(--background-button-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -79,7 +107,7 @@ letter-spacing: 0.28px;
 }
 .telephone{
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -88,15 +116,22 @@ letter-spacing: 0.28px;
 }
 
 .post{
- background: var(--secondary-background-color);   
+ background: var(--secondary-background-color);  
+ padding-bottom: 94px;
+ padding-top: 32px; 
+ padding-left: 215px;
+ padding-right: 215px;
 }
 .post-title{
     color: var(--second-text-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 2.64px;
     text-align: center;
+font-family: 'Roboto';
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; 
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 .post-button{
     color: var(--second-text-color);
@@ -113,12 +148,17 @@ letter-spacing: 0.28px;
     text-align: center;
 }
 /*benefits*/
+.benefits{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .benefits-list{
     list-style: none;
 }
 .benefits-name{
     color: var(--title-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -128,18 +168,22 @@ letter-spacing: 0.28px;
 }
 .benefits-text{
    color: var(--primary-text-color);
-   font-family: Roboto;
+   font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
+/*Activity*/
+.activity{
+    padding-bottom: 94px;
+}
 /*Title to three fotos*/
 .activity-title{
     color: var(--title-text-color);
     text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -148,17 +192,20 @@ letter-spacing: 1.08px;
 }
 .activity-imges{
     width: 370px;
-height: 294px;
-padding: 20px;
 }
 /*Team*/
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--background-team-color);
+}
 .team-list{
     list-style: none;
 }
 .team-name{
     color: var(--title-text-color);
     text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -168,7 +215,7 @@ letter-spacing: 0.48px;
 .team-position{
     color: var(--primary-text-color);
     text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -178,10 +225,14 @@ letter-spacing: 0.48px;
 /*Footer*/
 .footer{
     background-color: var(--secondary-background-color);
+    padding-top: 94px;
+}
+.logo-white{
+    color: var(--primery-background-color);
 }
 .address-text{
     color: var(--primery-background-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -190,7 +241,7 @@ letter-spacing: 0.42px;
 }
 .addres-link{
     color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
