@@ -117,10 +117,6 @@ letter-spacing: 0.28px;
 
 .post{
  background: var(--secondary-background-color);  
- padding-bottom: 94px;
- padding-top: 32px; 
- padding-left: 215px;
- padding-right: 215px;
 }
 .post-title{
     color: var(--second-text-color);
