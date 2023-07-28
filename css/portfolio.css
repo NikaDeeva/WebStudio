@@ -1,24 +1,20 @@
 :root{
-    --button-background: #F5F4FA;
-    --button-color: #212121;
-    --block-text-color: #757575;
-    --button-one-background: #2196F3;
-    --button-one-color: #FFF;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --second-text-color: #FFFFFF;
+    --background-button-color: #2196F3;
+    --primery-background-color: #FFF;
+    --background-team-color: #F5F4FA;
+    --logo-color: #000;
+    --secondary-background-color: #2F303A;  
+  }
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-h1, h2, h3, h4, h5, h6, p{
-    margin-bottom: 0;
-    margin-top: 0;
-}
-ul,ol{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -45,12 +41,8 @@ a{
     letter-spacing: 0.28px;
     list-style: none;
 }
-.header-list:hover{
-    color: var(--background-button-color);
-
-}
 .header-link-one{
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -61,7 +53,7 @@ color: var(--background-button-color);
 .header-link{
     text-decoration: none;
     color: var(--title-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -79,7 +71,7 @@ letter-spacing: 0.28px;
 }
 .email{
     color: var(--background-button-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -88,7 +80,7 @@ letter-spacing: 0.28px;
 }
 .telephone{
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -97,12 +89,12 @@ letter-spacing: 0.28px;
 }
 /*Кнопка "Усі"*/
 .button-one{
-   background: var(--button-one-background);
-   color: var(--button-one-color);
+   background: var(--background-button-color);
+   color: var(--primery-background-color);
    border-radius: 4px;
    border: none;
    text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -116,7 +108,7 @@ background-color: var(--button-background);
 color: var(--button-color);
 border: none;
 text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -134,7 +126,7 @@ padding: 30px;
 /*Заголовки карток*/
 .block-title{
     color: var(--button-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -144,7 +136,7 @@ letter-spacing: 1.08px;
 /*Текст карток*/
 .block-text{
     color: var(--block-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -154,22 +146,23 @@ letter-spacing: 0.48px;
 /*Footer*/
 .footer{
     background-color: var(--secondary-background-color);
+    padding-top: 94px;
 }
 .logo-white{
-    color: var(--button-one-color);
+    color: var(--primery-background-color);
 }
 .address-text{
     color: var(--primery-background-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
-.address-link{
+.addres-link{
     color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
