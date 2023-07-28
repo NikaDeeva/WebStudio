@@ -21,6 +21,10 @@ background-color: var(--primery-background-color);
 font-size: 14px;
 }
 /*header*/
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 /*Logotype*/
 .header-logo{
     color: var(--logo-color);
@@ -45,6 +49,9 @@ font-size: 14px;
 }
 .header-list:hover{
     color: var(--background-button-color);
+}
+.header-list-item{
+    padding: 50px;
 }
 .header-link-one{
     font-family: 'Roboto';
@@ -73,6 +80,7 @@ letter-spacing: 0.28px;
 /*Contacts*/
 .contacts-list{
     list-style: none;
+    padding-left: 344px ;
 }
 .email{
     color: var(--background-button-color);
@@ -95,6 +103,8 @@ letter-spacing: 0.28px;
 
 .post{
  background: var(--secondary-background-color);  
+ padding-top: 200px;
+ padding-bottom: 200px;
 }
 .post-title{
     color: var(--second-text-color);
@@ -124,7 +134,7 @@ text-transform: uppercase;
 /*benefits*/
 .benefits{
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 118px;
 
 }
 .benefits-list{
@@ -151,6 +161,7 @@ letter-spacing: 0.42px;
 }
 /*Activity*/
 .activity{
+    padding-top: 118px;
     padding-bottom: 94px;
 }
 /*Title to three fotos*/
