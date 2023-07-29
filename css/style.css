@@ -149,6 +149,7 @@ text-transform: uppercase;
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .benefits-text{
    color: var(--primary-text-color);
@@ -158,6 +159,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
+
 }
 /*Activity*/
 .activity{
@@ -174,6 +176,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+padding-bottom: 50px;
 }
 .activity-imges{
     width: 370px;
@@ -186,6 +189,9 @@ letter-spacing: 1.08px;
 }
 .team-list{
     list-style: none;
+}
+.team-card{
+    padding-bottom: 126px;
 }
 .team-name{
     color: var(--title-text-color);
@@ -211,6 +217,7 @@ letter-spacing: 0.48px;
 .footer{
     background-color: var(--secondary-background-color);
     padding-top: 94px;
+    padding-bottom: 60px;
 }
 .logo-white{
     color: var(--primery-background-color);

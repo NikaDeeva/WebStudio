@@ -45,6 +45,9 @@ a{
     letter-spacing: 0.28px;
     list-style: none;
 }
+.header-list-item{
+    padding: 50px;
+}
 .header-link-one{
     font-family: 'Roboto';
 font-size: 14px;
@@ -72,6 +75,7 @@ letter-spacing: 0.28px;
 /*Contacts*/
 .contacts-list{
     list-style: none;
+    padding-left: 344px ;
 }
 .email{
     color: var(--background-button-color);
@@ -107,6 +111,13 @@ letter-spacing: 0.48px;
 
 }
 /*Інші кнопки*/
+.button-list{
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+.button-list-item{
+    padding: 8px;
+}
 .button{
 background-color: var(--button-background);
 color: var(--button-color);
@@ -121,6 +132,9 @@ letter-spacing: 0.48px;
 padding: 8px;
 }
 /*Картинки*/
+.section{
+    padding-bottom: 94px;
+}
 
 .block-img{
     width: 370px;
@@ -136,6 +150,8 @@ font-style: normal;
 font-weight: 700;
 line-height: 36px;
 letter-spacing: 1.08px;
+padding-bottom: 4px;
+padding-top: 20px;
 }
 /*Текст карток*/
 .block-text{
@@ -151,6 +167,7 @@ letter-spacing: 0.48px;
 .footer{
     background-color: var(--secondary-background-color);
     padding-top: 94px;
+    padding-bottom: 60px;
 }
 .logo-white{
     color: var(--primery-background-color);
