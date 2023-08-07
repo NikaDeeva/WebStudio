@@ -25,6 +25,11 @@ font-size: 14px;
     padding-top: 24px;
     padding-bottom: 25px;
 }
+.header-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /*Logotype*/
 .header-logo{
     color: var(--logo-color);
@@ -45,14 +50,16 @@ font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    list-style: none;
+    display: flex;
+    
+}
+.header-list-item:not(:last-child){
+    margin-right: 50px;
 }
 .header-list:hover{
     color: var(--background-button-color);
 }
-.header-list-item{
-    padding: 50px;
-}
+
 .header-link-one{
     font-family: 'Roboto';
 font-size: 14px;
@@ -79,8 +86,9 @@ letter-spacing: 0.28px;
 }
 /*Contacts*/
 .contacts-list{
-    list-style: none;
     padding-left: 344px ;
+    display: flex;
+    
 }
 .email{
     color: var(--background-button-color);
@@ -90,6 +98,7 @@ letter-spacing: 0.28px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    
 }
 .telephone{
     color: var(--primary-text-color);
@@ -99,6 +108,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+margin-right: 50px;
 }
 
 .post{
@@ -131,15 +141,22 @@ margin: 0 auto;
     padding: 10px 32px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Roboto';
 }
 /*benefits*/
 .benefits{
     padding-top: 94px;
-    padding-bottom: 118px;
 
 }
 .benefits-list{
-    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+.benefits-block{
+    width: 270px;
+}
+.benefits-block:not(:last-child){
+    margin-right: 30px;
 }
 .benefits-name{
     color: var(--title-text-color);
@@ -179,6 +196,10 @@ line-height: normal;
 letter-spacing: 1.08px;
 padding-bottom: 50px;
 }
+.activity-list-imges{
+    display: flex;
+    justify-content: space-between;
+}
 .activity-imges{
     width: 370px;
 }
@@ -189,10 +210,18 @@ padding-bottom: 50px;
     background-color: var(--background-team-color);
 }
 .team-list{
-    list-style: none;
+    display: flex;
+
 }
 .team-card{
-    padding-bottom: 126px;
+    width: 270px;
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.team-card:not(:last-child){
+    margin-right: 30px;
 }
 .team-name{
     color: var(--title-text-color);
@@ -203,6 +232,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
+padding-top: 30px;
 }
 .team-position{
     color: var(--primary-text-color);
@@ -213,6 +243,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
+padding-top: 10px;
+padding-bottom: 30px;
 }
 /*Footer*/
 .footer{
@@ -223,6 +255,10 @@ letter-spacing: 0.48px;
 .logo-white{
     color: var(--primery-background-color);
 }
+.address-div{
+    display: flex;
+    flex-direction: column;
+}
 .address-text{
     color: var(--primery-background-color);
     font-family: 'Roboto';
@@ -232,7 +268,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
-.addres-link{
+.address-link{
     color: rgba(255, 255, 255, 0.60);
 font-family: 'Roboto';
 font-size: 14px;
