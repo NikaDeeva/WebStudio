@@ -116,6 +116,7 @@ font-weight: 900;
 line-height: 60px; 
 letter-spacing: 2.64px;
 text-transform: uppercase;
+margin: 0 auto;
 }
 .post-button{
     color: var(--second-text-color);
