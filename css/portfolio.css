@@ -3,10 +3,10 @@
     --title-text-color: #212121;
     --second-text-color: #FFFFFF;
     --background-button-color: #2196F3;
-    --primery-background-color: #FFF;
     --background-team-color: #F5F4FA;
     --logo-color: #000;
-    --secondary-background-color: #2F303A;  
+    --secondary-background-color: #2F303A;
+    --border-color: #EEE;  
   }
 .container{
     width: 1200px;
@@ -89,6 +89,12 @@ letter-spacing: 0.28px;
     display: flex;
     
 }
+.contacts-list-item{
+    display: flex;
+}
+.img-email{
+    padding-right: 10px;
+}
 .email{
     color: var(--background-button-color);
     font-family: 'Roboto';
@@ -107,12 +113,13 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
-margin-right: 50px;
+margin-left: 50px;
 }
+
 /*Кнопка "Усі"*/
 .button-one{
    background: var(--background-button-color);
-   color: var(--primery-background-color);
+   color: var(--second-text-color);
    border-radius: 4px;
    border: none;
 text-align: center;
@@ -153,11 +160,20 @@ padding: 8px;
 .section{
     padding-bottom: 94px;
 }
+.block-item{
+    width: 370px;
+height: 404px;
+border: 1px solid var(--border-color);
+background-color: var(--second-text-color);
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+margin-bottom: 30px;
+}
+.block-item:not(:last-child){
+    margin-right: 10px;
+}
 .block-list{
     display: flex;
     flex-wrap: wrap;
-    margin-right: 30px;
-    margin-bottom: 30px;
 
 }
 
@@ -193,16 +209,21 @@ letter-spacing: 0.48px;
     background-color: var(--secondary-background-color);
     padding-top: 94px;
     padding-bottom: 60px;
+    display: flex;
+}
+.footer-dates{
+    display: flex;
+    flex-direction: column;
 }
 .logo-white{
-    color: var(--primery-background-color);
+    color: var(--second-text-color);
 }
 .address-div{
     display: flex;
     flex-direction: column;
 }
 .address-text{
-    color: var(--primery-background-color);
+    color: var(--second-text-color);
     font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
@@ -218,4 +239,26 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
+}
+.footer-div{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    color: var(--second-text-color);
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.footer-list{
+    display: flex;
+    padding-top: 32px;
+}
+.footer-item:not(:last-child){
+padding-right: 34px;
 }
