@@ -164,12 +164,53 @@ margin: 0 auto;
 .benefits-block:not(:last-child){
     margin-right: 30px;
 }
-.benefits-img{
+.benefits-letter-one::before{
+    content: '';
+    display: block;
     background-color: var(--background-team-color);
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
+    background-image: url(/imges/benefitsimg1.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits-letter-two::before{
+    content: '';
+    display: block;
+    background-color: var(--background-team-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url(/imges/benefitsimg2.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits-letter-three::before{
+    content: '';
+    display: block;
+    background-color: var(--background-team-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url(/imges/benefitsimg3.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.benefits-letter-four::before{
+    content: '';
+    display: block;
+    background-color: var(--background-team-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-image: url(/imges/benefitsimg4.png);
+    background-repeat:no-repeat ;
+    background-position: center;
 }
 .benefits-name{
     color: var(--title-text-color);
