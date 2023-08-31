@@ -184,7 +184,7 @@ margin: 0 auto;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-image: url(./imges/benefitsimg2.png);
+    background-image: url(/imges/benefitsimg2.png);
     background-repeat:no-repeat ;
     background-position: center;
 }
