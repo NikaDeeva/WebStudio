@@ -411,6 +411,9 @@ text-transform: uppercase;
     display: flex;
     padding-top: 32px;
 }
+.footer-item{
+  cursor: pointer; 
+   }
 .footer-item:not(:last-child){
 padding-right: 34px;
 }
