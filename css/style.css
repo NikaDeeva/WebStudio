@@ -94,8 +94,10 @@ letter-spacing: 0.28px;
 .contacts-list-item{
     display: flex;
 }
-.img-email{
-    padding-right: 10px;
+.contacts-mail{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
 }
 .email{
     color: var(--background-button-color);
@@ -107,6 +109,17 @@ letter-spacing: 0.28px;
     letter-spacing: 0.28px;
     
 }
+.contacts-phone{
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+.contacts-list .telephone:hover{
+    color: var(--background-button-color);
+}
+.telephone .contacts-phone:hover{
+    fill: var(--background-button-color);
+}
 .telephone{
     color: var(--primary-text-color);
     font-family: 'Roboto';
@@ -115,7 +128,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
-margin-left: 50px;
+margin-left: 30px;
 }
 
 .post{
@@ -313,6 +326,16 @@ padding-bottom: 30px;
 .team-img-list-item:not(:last-child){
 padding-right: 34px;
 }
+.team-svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+.team-svg:hover{
+    fill: var(--second-text-color);
+    background-color: var(--background-button-color);
+}
 /*Last section*/
 .last-section{
     padding-top: 94px;
@@ -340,6 +363,12 @@ padding-right: 30px;
     width: 170px;
 height: 92px;
 border-radius: 4px;
+}
+.last-section-svg{
+    width: 106px;
+    height: 60px;
+   margin-top: 16px;
+   margin-left: 32px;
 }
 /*Footer*/
 .footer{
@@ -399,7 +428,7 @@ letter-spacing: 0.42px;
 }
 .footer-title{
     color: var(--second-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -416,4 +445,8 @@ text-transform: uppercase;
    }
 .footer-item:not(:last-child){
 padding-right: 34px;
+}
+.footer-svg{
+    width: 20px;
+    height: 20px;
 }
