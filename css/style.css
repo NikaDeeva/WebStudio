@@ -113,6 +113,7 @@ letter-spacing: 0.28px;
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    fill: var(--primary-text-color);
 }
 .contacts-list .telephone:hover{
     color: var(--background-button-color);
