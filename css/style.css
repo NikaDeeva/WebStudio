@@ -178,7 +178,7 @@
   }
   .post-button:hover{
     background: none;
-    border: 1px solid var(--background-button-color);
+    border: 5px solid var(--background-button-color);
   }
   /*benefits*/
   .benefits{
