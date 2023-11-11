@@ -71,6 +71,15 @@
   letter-spacing: 0.28px;
   color: var(--background-button-color);
   }
+  .header-link-one::after{
+    display: block;
+    content: '';
+    width: 45px;
+    height: 5px;
+    background-color: var(--background-button-color);
+    border-radius: 4px;
+    
+  }
   .header-link{
       text-decoration: none;
       color: var(--title-text-color);
