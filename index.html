@@ -65,7 +65,49 @@
       <section class="post">
         <div class="container">
           <h1 class="post-title">Ефективні рішення для <br />вашого бізнесу</h1>
-          <button class="post-button" type="button">Замовити послугу</button>
+          <button class="post-button" type="button" data-modal-open>Замовити послугу</button>
+          <!--Modal window-->
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-close-button" type="button"  data-modal-close>
+                <svg class="modal-close-img">
+                  <use href="./imges/cross1.svg"></use>
+                </svg>
+              </button>
+              <form class="modal-form">
+                <h3 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h3>
+                <div class="modal-form-field">
+                  <label for="name" class="modal-form-label">Ім'я
+                    <input type="text" class="form-input name" name="name" id="name">
+                  </label>
+                </div>
+                <div class="modal-form-field">
+                  <label for="tel" class="modal-form-label">Телефон
+                    <input type="tel" class="form-input tel" name="tel" id="tel">
+             <!--Icon tel-->
+                  </label>
+                </div>
+                <div class="modal-form-field">
+                  <label for="mail" class="modal-form-label">Пошта
+                    <input type="e-mail" class="form-input mail" name="e-mail" id="mail">
+             <!--Icon pers-->
+                  </label>
+                </div>
+                <div class="modal-form-field">
+                  <label for="comment" class="modal-form-label">Коментар
+                    <input type="comment" class="form-input-comment" name="comment" id="comment" placeholder="Введіть текст" rows="10">
+             <!--Icon pers-->
+                  </label>
+                </div>
+                <label class="modal-form-policy">
+                  <input type="checkbox" class="modal-form-checkbox" id="policy">
+                  <span class="modal-policy-text">Погоджуюся з розсилкою та приймаю</span>
+                  <a class="modal-policy-link" href="#">Умови договору</a>
+                </label>
+                <button type="submit" class="agree-button">Відправити</button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
       <section class="benefits">
@@ -393,5 +435,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
