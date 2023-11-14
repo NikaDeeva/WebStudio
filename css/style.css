@@ -272,12 +272,20 @@ width: 448px;
 height: 40px;
 margin-top: 4px;
 }
+.form-input:focus,
+.form-input-comment:focus{
+    outline: none;
+    border-color: var(--background-button-color);
+}
 .name{
-    background-image: url(../imges/name-pers.svg);
+    /* background-image: url(../imges/name-pers.svg);
     background-repeat: no-repeat;
-    /* position: relative;
+    position: relative;
     top: 11;
-    right: 12; */
+    right: 12; */ 
+}
+.name-img{
+    fill: var(--logo-color);
 }
 .tel{
     background-image: url(../imges/tel.svg);
