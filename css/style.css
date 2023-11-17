@@ -24,7 +24,6 @@
   /*header*/
   .header{
       padding-top: 24px;
-      padding-bottom: 25px;
   }
   .header-wraper{
       display: flex;
@@ -40,6 +39,7 @@
       line-height: normal;
       letter-spacing: 0.78px;
       text-decoration: none;
+      padding-bottom: 25px;
   }
   .logo-blue{
       color: var(--background-button-color);
@@ -52,6 +52,7 @@
       line-height: normal;
       letter-spacing: 0.28px;
       display: flex;
+      margin: 0;
   
       
   }
@@ -78,6 +79,7 @@
     height: 5px;
     background-color: var(--background-button-color);
     border-radius: 4px;
+    margin-top: 28px;
     
   }
   .header-link{
@@ -99,6 +101,7 @@
   .contacts-list{
       padding-left: 344px ;
       display: flex;
+      padding-bottom: 25px;
       
   }
   .contacts-list-item{
