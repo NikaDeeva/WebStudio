@@ -24,6 +24,8 @@
   /*header*/
   .header{
       padding-top: 24px;
+      padding-bottom: 28px;
+      border-bottom:1px solid var(--primary-text-color) ;
   }
   .header-wraper{
       display: flex;
@@ -39,7 +41,7 @@
       line-height: normal;
       letter-spacing: 0.78px;
       text-decoration: none;
-      padding-bottom: 25px;
+      
   }
   .logo-blue{
       color: var(--background-button-color);
@@ -71,11 +73,14 @@
   line-height: normal;
   letter-spacing: 0.28px;
   color: var(--background-button-color);
+  position: relative;
   }
-  .header-link-one::after{
+  .header-link-one.current:after{
     display: block;
+    position: absolute;
+    bottom: -33px;
     content: '';
-    width: 45px;
+    width: 100%;
     height: 5px;
     background-color: var(--background-button-color);
     border-radius: 4px;
@@ -101,7 +106,6 @@
   .contacts-list{
       padding-left: 344px ;
       display: flex;
-      padding-bottom: 25px;
       
   }
   .contacts-list-item{
