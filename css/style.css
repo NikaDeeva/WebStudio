@@ -88,8 +88,13 @@
     background-color: var(--background-button-color);
     border-radius: 4px;
     margin-top: 28px;
-    
+    /* transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out; */
   }
+/* .header-link-one.current:after:hover{
+    transform: translateX(100px);
+} */
   .header-link{
       text-decoration: none;
       color: var(--title-text-color);
