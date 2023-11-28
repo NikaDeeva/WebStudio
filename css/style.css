@@ -7,6 +7,7 @@
     --logo-color: #000;
     --secondary-background-color: #2F303A; 
     --border-color: #AFB1B8; 
+    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .container{
       width: 1200px;
@@ -55,11 +56,7 @@
       letter-spacing: 0.28px;
       display: flex;
       margin: 0;
-      transition-property: color;
-      transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
-  
-      
+      transition: color 250ms var(--time-function); 
   }
   .header-list-item:not(:last-child){
       margin-right: 50px;
@@ -88,13 +85,13 @@
     background-color: var(--background-button-color);
     border-radius: 4px;
     margin-top: 28px;
-    /* transition-property: transform;
-    transition-duration: 200ms;
-    transition-timing-function: ease-in-out; */
+    transition: background-color 250ms ease-in-out;
   }
-/* .header-link-one.current:after:hover{
-    transform: translateX(100px);
-} */
+  .header-link-one:hover.current:after{
+    background-color: #51a9f2;
+    transition: background-color 250ms ease-in-out;
+
+  }
   .header-link{
       text-decoration: none;
       color: var(--title-text-color);
