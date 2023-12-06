@@ -85,11 +85,11 @@
     background-color: var(--background-button-color);
     border-radius: 4px;
     margin-top: 28px;
-    transition: background-color 250ms ease-in-out;
+    transition: background-color 250ms var(--time-function) ;
   }
   .header-link-one:hover.current:after{
     background-color: #51a9f2;
-    transition: background-color 250ms ease-in-out;
+    transition: background-color 250ms var(--time-function);
 
   }
   .header-link{
@@ -103,7 +103,7 @@
   letter-spacing: 0.28px;
   transition-property: color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .header-link:hover,
   .header-link:focus{
@@ -140,7 +140,7 @@
       align-items: center;
       transition-property: color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function: var(--time-function);
   }
   .contacts-list .icon:hover{
       color: var(--background-button-color);
@@ -204,7 +204,7 @@
       margin-top: 30px;
       transition-property: background;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .post-button:hover{
     background: rgb(35, 87, 183);
@@ -260,7 +260,7 @@
     align-items: center;
     transition-property: fill;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .modal-icon:hover,
   .modal-icon:focus {
@@ -306,7 +306,7 @@ color: var(--primary-text-color);
     cursor: auto;
     transition-property: outline border-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function: var(--time-function);
   }
   .modal-form-icon {
     position: absolute;
@@ -326,7 +326,7 @@ color: var(--primary-text-color);
     cursor: pointer;
     transition-property: outline border-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function: var(--time-function);
   }
   .comment:focus {
     outline: none;
@@ -404,7 +404,7 @@ letter-spacing: 0.42px;
     letter-spacing: 0.96px;
     transition-property: background-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .agree-btn:hover,
   .agree-btn:focus {
@@ -594,7 +594,7 @@ letter-spacing: 0.42px;
       align-items: center;
       transition-property: fill background-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .team-svg{
       width: 20px;
@@ -639,7 +639,7 @@ letter-spacing: 0.42px;
       fill: var(--border-color);
       transition-property: fill border-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .last-section-div:hover,
   .last-section-div:focus{
@@ -694,7 +694,7 @@ letter-spacing: 0.42px;
   margin-bottom: 9px;
   transition-property: color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   
   }
   .footer-email:hover{
@@ -710,7 +710,7 @@ letter-spacing: 0.42px;
   letter-spacing: 0.42px;
   transition-property: color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
   }
   .footer-tel:hover{
     color: var(--background-button-color);
@@ -740,7 +740,7 @@ letter-spacing: 0.42px;
       height: 20px;
       transition-property: fill background-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
       cursor: pointer; 
   }
   .footer-svg:hover{
@@ -760,7 +760,7 @@ letter-spacing: 0.42px;
     background-color: rgba(255, 255, 255, 0.10);
     transition-property: fill background-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function: var(--time-function);
     
 }
 .footer-item:hover{
@@ -830,7 +830,7 @@ margin-left: 12px;
 cursor: pointer;
 transition-property: background-color;
       transition-duration: 250ms;
-      transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:  var(--time-function);
 }
 .form-button:hover{
     background-color: rgb(35, 87, 183);
