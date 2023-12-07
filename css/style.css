@@ -150,6 +150,9 @@
       width: 16px;
       height: 12px;
       margin-right: 10px;
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function:  var(--time-function);
   }
   .email{
       color: var(--primary-text-color);
@@ -192,6 +195,9 @@
       height: 16px;
       margin-right: 10px;
       fill: var(--primary-text-color);
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function:  var(--time-function);
   }
   .telephone{
       color: var(--primary-text-color);
