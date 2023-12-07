@@ -57,6 +57,15 @@
       display: flex;
       margin: 0;
       transition: color 250ms var(--time-function); 
+      animation-name: chColorlist;
+  }
+  @keyframes chColorlist{
+    0%{
+        color: var(--title-text-color);
+    }
+    100%{
+        color: var(--background-button-color);
+    }
   }
   .header-list-item:not(:last-child){
       margin-right: 50px;
@@ -90,8 +99,17 @@
   .header-link-one:hover.current:after{
     background-color: #51a9f2;
     transition: background-color 250ms var(--time-function);
+    animation-name: chCurrent;
 
   }
+  @keyframes chCurrent{
+    0%{
+       background-color: var(--background-button-color);
+    }
+    100%{
+       background-color: #51a9f2;
+    }
+}
   .header-link{
       text-decoration: none;
       color: var(--title-text-color);
@@ -104,7 +122,16 @@
   transition-property: color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chLink;
   }
+  @keyframes chLink{
+    0%{
+        color: var(--title-text-color);
+    }
+    100%{
+        color: var(--background-button-color);
+    }
+}
   .header-link:hover,
   .header-link:focus{
       color: var(--background-button-color);
@@ -141,7 +168,16 @@
       transition-property: color;
       transition-duration: 250ms;
       transition-timing-function: var(--time-function);
+      animation-name: chIcon;
   }
+  @keyframes chIcon{
+    0%{
+        fill: var(--primary-text-color);
+    }
+    100%{
+       fill: var(--background-button-color);
+    }
+}
   .contacts-list .icon:hover{
       color: var(--background-button-color);
   }
@@ -205,7 +241,16 @@
       transition-property: background;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chButton;
   }
+  @keyframes chButton{
+    0%{
+        background: var(--background-button-color);
+    }
+    100%{
+        background: rgb(35, 87, 183);
+    }
+}
   .post-button:hover{
     background: rgb(35, 87, 183);
   }
@@ -261,7 +306,16 @@
     transition-property: fill;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chmodalIcon;
   }
+  @keyframes chmodalIcon{
+    0%{
+        fill: var(--logo-color);
+    }
+    100%{
+       fill: var(--background-button-color);
+    }
+}
   .modal-icon:hover,
   .modal-icon:focus {
     fill: var(--background-button-color);
@@ -307,7 +361,17 @@ color: var(--primary-text-color);
     transition-property: outline border-color;
       transition-duration: 250ms;
       transition-timing-function: var(--time-function);
+      animation-name: chInput;
   }
+  @keyframes chInput{
+    0%{
+        border-color:rgba(33, 33, 33, 0.2) ;
+    }
+    100%{
+        outline: none;
+        border-color: var(--background-button-color);
+    }
+}
   .modal-form-icon {
     position: absolute;
     left: 12px;
@@ -327,7 +391,16 @@ color: var(--primary-text-color);
     transition-property: outline border-color;
       transition-duration: 250ms;
       transition-timing-function: var(--time-function);
+      animation-name: chComment;
   }
+  @keyframes chComment{
+    0%{
+        border-color:rgba(33, 33, 33, 0.2) ;
+    }
+    100%{
+        border-color: var(--background-button-color);
+    }
+}
   .comment:focus {
     outline: none;
     border-color: var(--accent-color);
@@ -405,7 +478,16 @@ letter-spacing: 0.42px;
     transition-property: background-color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chAgree;
   }
+  @keyframes chAgree{
+    0%{
+        background-color: var(--background-button-color) ;
+    }
+    100%{
+        background-color: #188ce8;
+    }
+}
   .agree-btn:hover,
   .agree-btn:focus {
     background-color: #188ce8;
@@ -595,7 +677,17 @@ letter-spacing: 0.42px;
       transition-property: fill background-color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chItem;
   }
+  @keyframes chItem{
+    0%{
+       fill: var(--border-color) ;
+    }
+    100%{
+        fill: var(--second-text-color);
+      background-color: #2196F3;
+    }
+}
   .team-svg{
       width: 20px;
       height: 20px;
@@ -640,7 +732,17 @@ letter-spacing: 0.42px;
       transition-property: fill border-color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chDiv;
   }
+  @keyframes chDiv{
+    0%{
+       fill: var(--border-color) ;
+    }
+    100%{
+        fill: var(--background-button-color);
+      border-color: var(--background-button-color);
+    }
+}
   .last-section-div:hover,
   .last-section-div:focus{
       fill: var(--background-button-color);
@@ -695,7 +797,16 @@ letter-spacing: 0.42px;
   transition-property: color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chEmail;
   
+  }
+  @keyframes chEmail{
+    0%{
+        color: rgba(255, 255, 255, 0.60);
+    }
+    100%{
+        color: var(--background-button-color);
+    }
   }
   .footer-email:hover{
     color: var(--background-button-color);
@@ -711,6 +822,15 @@ letter-spacing: 0.42px;
   transition-property: color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chTel;
+  }
+  @keyframes chTel{
+    0%{
+        color: rgba(255, 255, 255, 0.60);
+    }
+    100%{
+        color: var(--background-button-color);
+    }
   }
   .footer-tel:hover{
     color: var(--background-button-color);
@@ -741,7 +861,17 @@ letter-spacing: 0.42px;
       transition-property: fill background-color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
-      cursor: pointer; 
+      cursor: pointer;
+      animation-name: chSvg; 
+  }
+  @keyframes chSvg{
+    0%{
+        fill: none;
+    }
+    100%{
+        fill: var(--second-text-color);
+    background-color: #2196F3;
+    }
   }
   .footer-svg:hover{
     fill: var(--second-text-color);
@@ -761,7 +891,17 @@ letter-spacing: 0.42px;
     transition-property: fill background-color;
       transition-duration: 250ms;
       transition-timing-function: var(--time-function);
+      animation-name: chFitem;
     
+}
+@keyframes chFitem{
+    0%{
+        fill: var(--border-color);
+    }
+    100%{
+        fill: var(--second-text-color);
+    background-color: #2196F3;
+    }
 }
 .footer-item:hover{
     fill: var(--second-text-color);
@@ -831,6 +971,15 @@ cursor: pointer;
 transition-property: background-color;
       transition-duration: 250ms;
       transition-timing-function:  var(--time-function);
+      animation-name: chfBtn;
+}
+@keyframes chfBtn{
+    0%{
+        background-color: var(--background-button-color);
+    }
+    100%{
+        background-color: rgb(35, 87, 183);
+    }
 }
 .form-button:hover{
     background-color: rgb(35, 87, 183);
